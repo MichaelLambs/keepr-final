@@ -17,9 +17,6 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
             <div class="dropdown-item pointer">
-              <router-link to="/">Keeps</router-link>
-            </div>
-            <div class="dropdown-item pointer">
               <router-link to="/login">Sign Up</router-link>
             </div>
             <div class="dropdown-item pointer">

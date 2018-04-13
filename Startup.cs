@@ -17,11 +17,11 @@ namespace keepr_final
 {
     public class Startup
     {
-        private readonly string _connetionString = "";
+        private readonly string _connetionString = "host=sql3.freemysqlhosting.net;port=3306;database=sql3232300;user id=sql3232300;password=D6hlDmuSfY;Allow User Variables=True;";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            _connetionString = configuration.GetSection("DB").GetValue<string>("mySQLConnectionString");
+            // _connetionString = configuration.GetSection("DB").GetValue<string>("mySQLConnectionString");
         }
 
         public IConfiguration Configuration { get; }

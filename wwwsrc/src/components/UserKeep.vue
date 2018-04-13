@@ -179,6 +179,11 @@
   .pin-grey {
       color: #c4c4c4;
       background-color: #eaeaea;
+      transition: all .3s linear;
+  }
+
+  .pin-grey:hover {
+      color: #a1a1a1;
   }
 
 </style>
